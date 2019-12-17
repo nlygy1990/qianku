@@ -1,0 +1,2 @@
+<import src="./jihui.vue.swan" />
+    <template is="770a38bc" data="{{{ ...$root['0'], $root }}}"/>

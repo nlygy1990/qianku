@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "详情展示",
+  "titleNView": {
+    "type": "transparent"
+  },
+  "usingComponents": {
+    "share": "/components/share",
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "hch-poster": "/components/hch-poster/hch-poster"
+  }
+}

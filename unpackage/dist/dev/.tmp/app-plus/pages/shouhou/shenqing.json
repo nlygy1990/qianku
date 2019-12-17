@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "售后申请",
+  "bounce": "none",
+  "usingComponents": {
+    "uni-number-box": "/components/uni-number-box"
+  }
+}

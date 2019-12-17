@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"uni-center { width: ",[0,568],"; height: ",[0,250],"; }\n.",[1],"uni-center .",[1],"zdl { text-align: center; color: #008ab0; font-size: ",[0,28],"; padding-top: ",[0,40],"; }\n.",[1],"uni-center .",[1],"zdl wx-button { background: #008ab0; font-size: ",[0,28],"; width: 50%; height: ",[0,80],"; }\n",],undefined,{path:"./pages/bind/bind.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/bind/bind.wxml') } }));

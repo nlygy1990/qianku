@@ -1,0 +1,2 @@
+<import src="./dsflogin.vue.swan" />
+    <template is="ecb432ce" data="{{{ ...$root['0'], $root }}}"/>

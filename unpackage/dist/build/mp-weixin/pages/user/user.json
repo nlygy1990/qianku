@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "list-cell": "/components/mix-list-cell",
+    "uni-drawer": "/components/uni-drawer/uni-drawer"
+  }
+}

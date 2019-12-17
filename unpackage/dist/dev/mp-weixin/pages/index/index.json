@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "钱库CBE商城",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "uni-drawer": "/components/uni-drawer/uni-drawer"
+  }
+}

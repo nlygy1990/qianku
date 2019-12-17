@@ -1,0 +1,440 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background: #f8f8f8;
+  padding-bottom: 100rpx;
+}
+.aaa {
+  height: 140rpx;
+  background: #f4f4f4;
+  color: #808080;
+  font-size: 26rpx;
+}
+.aaa text {
+    color: #37b0c9;
+}
+.address-section {
+  padding: 30rpx 0;
+  background: #fff;
+  position: relative;
+}
+.address-section .order-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.address-section .icon-shouhuodizhi {
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 90rpx;
+    color: #888;
+    font-size: 44rpx;
+}
+.address-section .cen {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 28rpx;
+    color: #303133;
+}
+.address-section .noadd {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 28rpx;
+    color: #303133;
+}
+.address-section .name {
+    font-size: 34rpx;
+    margin-right: 24rpx;
+}
+.address-section .address {
+    margin-top: 16rpx;
+    margin-right: 20rpx;
+    color: #909399;
+}
+.address-section .icon-you {
+    font-size: 32rpx;
+    color: #333333;
+    margin-right: 30rpx;
+}
+.address-section .a-bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 5rpx;
+}
+.gmr-section {
+  padding: 30rpx 0;
+  background: #fff;
+  position: relative;
+  margin-top: 20rpx;
+}
+.gmr-section .order-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.gmr-section .tit {
+    width: 135rpx;
+    padding-left: 30rpx;
+    font-size: 26rpx;
+    color: #333333;
+}
+.gmr-section .cen {
+    width: 555rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 26rpx;
+    color: #333333;
+}
+.gmr-section .nocen {
+    width: 555rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 26rpx;
+    color: #cccccc;
+}
+.gmr-section .icon-you {
+    font-size: 32rpx;
+    color: #333333;
+    margin-right: 30rpx;
+}
+.gmsm {
+  padding: 12rpx 30rpx 30rpx 30rpx;
+  background: #fff;
+  position: relative;
+  border-top: 1rpx solid #ebebeb;
+}
+.gmsm view {
+    background: #f6f7f7;
+    font-size: 24rpx;
+    padding: 15rpx 25rpx;
+    color: #808080;
+    line-height: 36rpx;
+}
+.goods-section {
+  margin-top: 20rpx;
+  background: #fff;
+  padding-bottom: 1px;
+}
+.goods-section .g-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 84rpx;
+    padding: 0 30rpx;
+    position: relative;
+}
+.goods-section .name {
+    font-size: 28rpx;
+    color: #333333;
+}
+.goods-section .g-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 30rpx 30rpx;
+    position: relative;
+}
+.goods-section .g-item image {
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+      display: block;
+      width: 180rpx;
+      height: 180rpx;
+      border: 1rpx solid #cccccc;
+}
+.goods-section .g-item .right {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      padding-left: 24rpx;
+      overflow: hidden;
+}
+.goods-section .g-item .title {
+      font-size: 26rpx;
+      color: #323232;
+      padding: 5rpx 0;
+      padding-top: 0rpx;
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+         text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+}
+.goods-section .g-item .spec {
+      font-size: 24rpx;
+      color: #808080;
+}
+.goods-section .g-item .price-box {
+      width: 486rpx;
+      font-size: 28rpx;
+      padding-top: 10rpx;
+      position: absolute;
+      bottom: 0rpx;
+}
+.goods-section .g-item .price-box .price {
+        color: #37b0c9;
+        font-size: 28rpx;
+        margin-bottom: 4rpx;
+}
+.goods-section .g-item .price-box .price text {
+          font-size: 24rpx;
+          color: #909399;
+          text-decoration: line-through;
+          padding: 0 15rpx;
+}
+.goods-section .g-item .price-box .number {
+        font-size: 28rpx;
+        color: #353535;
+        margin-left: 20rpx;
+        position: absolute;
+        right: 0rpx;
+}
+.goods-section .g-item .step-box {
+      position: relative;
+}
+.yt-list {
+  margin-top: 16rpx;
+  background: #fff;
+}
+.yt-list-cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10rpx 30rpx 10rpx 40rpx;
+  line-height: 70rpx;
+  position: relative;
+}
+.yt-list-cell.cell-hover {
+    background: #fafafa;
+}
+.yt-list-cell.b-b:after {
+    left: 30rpx;
+}
+.yt-list-cell .cell-icon {
+    height: 38rpx;
+    width: 100rpx;
+    font-size: 26rpx;
+    color: #ffad43;
+    text-align: center;
+    line-height: 36rpx;
+    background: #ffffff;
+    border-radius: 38rpx;
+    margin-right: 12rpx;
+    border: 1rpx solid #ffad43;
+}
+.yt-list-cell .cell-icon.hb {
+      background: #ffffff;
+}
+.yt-list-cell .cell-icon.lpk {
+      background: #ffffff;
+}
+.yt-list-cell .cell-more {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 24rpx;
+    color: #909399;
+    margin-left: 8rpx;
+    margin-right: -10rpx;
+}
+.yt-list-cell .cell-tit {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 26rpx;
+    color: #333333;
+    margin-right: 10rpx;
+}
+.yt-list-cell .cell-tit image {
+      width: 28rpx;
+      height: 28rpx;
+      margin-left: 20rpx;
+}
+.yt-list-cell .cell-tip {
+    font-size: 26rpx;
+    color: #333333;
+}
+.yt-list-cell .cell-tip.disabled {
+      color: #909399;
+}
+.yt-list-cell .cell-tip.active {
+      color: #fa436a;
+}
+.yt-list-cell .cell-tip.red {
+      color: #ff69b0;
+}
+.yt-list-cell.desc-cell .cell-tit {
+    max-width: 90rpx;
+}
+.yt-list-cell .desc {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 28rpx;
+    color: #303133;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 995;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 110rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 30rpx;
+  background-color: #fff;
+  z-index: 998;
+  color: #606266;
+  -webkit-box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+.footer .price-content {
+    width: 490rpx;
+    padding-left: 30rpx;
+    text-align: right;
+    font-size: 26rpx;
+}
+.footer .price-tip {
+    font-size: 28rpx;
+    color: #37b0c9;
+    margin-left: 8rpx;
+}
+.footer .price {
+    font-size: 28rpx;
+    color: #37b0c9;
+}
+.footer .submit {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 190rpx;
+    height: 72rpx;
+    color: #ffffff;
+    font-size: 28rpx;
+    background-color: #008ab0;
+    margin-right: 30rpx;
+    border-radius: 72rpx;
+}
+.uni-center {
+  width: 568rpx;
+  max-height: 900rpx;
+  min-height: 600rpx;
+}
+.uni-center .zdl {
+    text-align: center;
+    color: #008ab0;
+    font-size: 28rpx;
+    padding-top: 40rpx;
+}
+

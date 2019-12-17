@@ -1,0 +1,2 @@
+<import src="./erweima.vue.swan" />
+    <template is="dccb9854" data="{{{ ...$root['0'], $root }}}"/>

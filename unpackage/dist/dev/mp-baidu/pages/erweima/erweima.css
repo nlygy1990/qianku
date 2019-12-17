@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  width: 100%;
+  height: 100%;
+}
+.bg {
+  width: 100%;
+  height: 100%;
+  background: url("http://wxapp.tegou100.com/static/images/erweimabg.png") no-repeat center center;
+  background-size: cover;
+}
+.bg .shuoming {
+    width: 580rpx;
+    margin: 0 85rpx;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30rpx;
+    padding-top: 60rpx;
+    line-height: 50rpx;
+}
+.bg .erweimabg {
+    width: 560rpx;
+    height: 660rpx;
+    background: #FFFFFF;
+    border-radius: 30rpx;
+    margin: 60rpx 95rpx;
+    text-align: center;
+}
+.bg .erweimabg .nickname {
+      width: 560rpx;
+      color: #333333;
+      font-size: 28rpx;
+      text-align: center;
+      padding-top: 70rpx;
+}
+.bg .erweimabg .smsm {
+      width: 560rpx;
+      color: #333333;
+      font-size: 28rpx;
+      text-align: center;
+      padding-top: 23rpx;
+}
+.bg .erweimabg .ewm {
+      width: 350rpx;
+      height: 350rpx;
+      margin-top: 63rpx;
+}
+.bg .save {
+    width: 670rpx;
+    height: 80rpx;
+    border: 1px solid #FFFFFF;
+    margin: 0 40rpx;
+    border-radius: 10rpx;
+    line-height: 80rpx;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 28rpx;
+}
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/erweima/erweima.js.map*/

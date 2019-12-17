@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.clear {
+  clear: both;
+}
+.lists .nian {
+  height: 80rpx;
+  background: #f6f7f7;
+  line-height: 80rpx;
+  padding: 0rpx 40rpx;
+  color: #000000;
+  font-size: 26rpx;
+}
+.lists .nlist {
+  padding: 0 40rpx;
+}
+.lists .nlist .ull {
+    border-bottom: 1px solid #f2f2f2;
+    height: 103rpx;
+    line-height: 103rpx;
+}
+.lists .nlist .ull .xiangmu {
+      color: #323232;
+      font-size: 28rpx;
+}
+.lists .nlist .ull .money {
+      text-align: right;
+      float: right;
+      color: #333333;
+      font-size: 28rpx;
+}
+.uni-center {
+  width: 568rpx;
+  max-height: 900rpx;
+  min-height: 200rpx;
+}
+.uni-center .cont {
+    padding-bottom: 90rpx;
+}
+.uni-center .zdl {
+    text-align: center;
+    color: #008ab0;
+    font-size: 28rpx;
+    height: 80rpx;
+    position: absolute;
+    bottom: 0rpx;
+    width: 100%;
+    line-height: 80rpx;
+}
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/shouru/shouru.js.map*/

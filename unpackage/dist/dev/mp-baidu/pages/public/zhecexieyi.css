@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background: #fff;
+}
+.container {
+  position: relative;
+  background: #FFFFFF;
+}
+.container .contt {
+    width: 690rpx;
+    margin: 20rpx 30rpx;
+    padding-bottom: 120rpx;
+}
+.container .bbb {
+    position: fixed;
+    bottom: 30rpx;
+    z-index: 999;
+    width: 100vw;
+    background: #FFFFFF;
+    padding-top: 30rpx;
+}
+.container .bbb view {
+      float: left;
+      width: 320rpx;
+      height: 80rpx;
+      text-align: center;
+      line-height: 80rpx;
+      font-size: 30rpx;
+}
+.container .bbb .jujue {
+      margin-left: 40rpx;
+      border: 1px solid #008ab0;
+      color: #008ab0;
+      border-radius: 50rpx;
+      background: #FFFFFF;
+}
+.container .bbb .tongyi {
+      margin-left: 30rpx;
+      border: 1px solid #008ab0;
+      color: #FFFFFF;
+      border-radius: 50rpx;
+      background: #008ab0;
+}
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/public/zhecexieyi.js.map*/

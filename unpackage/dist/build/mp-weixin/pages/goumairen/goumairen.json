@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "购买人",
+  "usingComponents": {
+    "uni-swipe-action": "/components/uni-swipe-action/uni-swipe-action"
+  }
+}

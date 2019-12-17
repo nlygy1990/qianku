@@ -1,0 +1,37 @@
+{
+  "navigationBarTitleText": "钱库CBE商城",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "bounce": "none",
+  "titleNView": {
+    "type": "transparent",
+    "titleText": "钱库CBE商城",
+    "buttons": [
+      {
+        "fontSrc": "/static/top.ttf",
+        "text": "",
+        "fontSize": "24",
+        "color": "#008ab0",
+        "background": "rgba(0,0,0,0)",
+        "float": "left"
+      },
+      {
+        "fontSrc": "/static/top.ttf",
+        "text": "",
+        "fontSize": "20",
+        "color": "#008ab0",
+        "width": "46px",
+        "background": "rgba(0,0,0,0)"
+      },
+      {
+        "fontSrc": "/static/top.ttf",
+        "text": "",
+        "fontSize": "20",
+        "color": "#008ab0",
+        "background": "rgba(0,0,0,0)"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-drawer": "/components/uni-drawer/uni-drawer"
+  }
+}

@@ -1,0 +1,2 @@
+<import src="./shouru.vue.swan" />
+    <template is="092b4de0" data="{{{ ...$root['0'], $root }}}"/>

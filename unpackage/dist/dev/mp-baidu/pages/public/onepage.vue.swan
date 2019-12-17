@@ -1,0 +1,1 @@
+<template name="7b8efe8e"><view class="_view container {{ h[ 0 ].rcl }}"><view class="_view contt"><rich-text class="_rich-text" nodes="{{ h[ 2 ][ 'nodes' ] }}"></rich-text></view></view></template>

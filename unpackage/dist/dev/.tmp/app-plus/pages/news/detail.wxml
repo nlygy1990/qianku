@@ -1,0 +1,1 @@
+<view><web-view src="{{'http://www.tegou100.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article&aid='+url}}" webview-styles="{{webviewStyles}}" data-event-opts="{{[['message',[['getMessage',['$event']]]]]}}" bindmessage="__e"></web-view></view>

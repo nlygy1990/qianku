@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  padding-bottom: 120rpx;
+  background: #f4f4f4;
+  height: 100%;
+}
+.content {
+  position: relative;
+}
+.nodizhi {
+  text-align: center;
+  color: #808080;
+  font-size: 30rpx;
+  line-height: 400rpx;
+}
+.nodizhi text {
+    color: #37b0c9;
+}
+.list {
+  background: #fff;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+.wrappera {
+  width: 670rpx;
+  padding: 30rpx 40rpx;
+}
+.wrappera .address {
+    font-size: 26rpx;
+    color: #323232;
+    padding-top: 10rpx;
+}
+.caozuo {
+  clear: both;
+  border-top: 1px solid #f2f2f2;
+  padding: 10rpx 40rpx;
+}
+.caozuo .radio {
+    font-size: 26rpx;
+    color: #323232;
+}
+.caozuo .rri {
+    font-size: 26rpx;
+    color: #323232;
+    float: right;
+    margin-top: 15rpx;
+    margin-left: 65rpx;
+}
+.caozuo .rri .del {
+      width: 29rpx;
+      height: 28rpx;
+      margin-right: 10rpx;
+}
+.caozuo .rri .edit {
+      width: 26rpx;
+      height: 26rpx;
+      margin-right: 10rpx;
+}
+.u-box {
+  font-size: 30rpx;
+  color: #323232;
+  margin-top: 16rpx;
+}
+.u-box .name {
+    margin-right: 30rpx;
+}
+.add-btn {
+  position: fixed;
+  left: 40rpx;
+  right: 40rpx;
+  bottom: 60rpx;
+  z-index: 95;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 670rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  color: #fff;
+  background-color: #008ab0;
+  border-radius: 10rpx;
+}
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/address/address.js.map*/

@@ -1,0 +1,2 @@
+<import src="./payapi.vue.swan" />
+    <template is="88cba2c0" data="{{{ ...$root['0'], $root }}}"/>

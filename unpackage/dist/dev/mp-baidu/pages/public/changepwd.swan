@@ -1,0 +1,2 @@
+<import src="./changepwd.vue.swan" />
+    <template is="cac2e034" data="{{{ ...$root['0'], $root }}}"/>

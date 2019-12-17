@@ -1,0 +1,2 @@
+<import src="./jifen.vue.swan" />
+    <template is="41c8899c" data="{{{ ...$root['0'], $root }}}"/>

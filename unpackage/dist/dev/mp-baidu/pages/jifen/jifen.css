@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.clear {
+  clear: both;
+}
+page {
+  width: 100%;
+  background: #f8f8f8;
+}
+.lists {
+  width: 100%;
+  padding: 0rpx 40rpx;
+  background: #ffffff;
+}
+.lists .l-item {
+    width: 100%;
+    height: 120rpx;
+    border-bottom: 1px solid #f2f2f2;
+    position: relative;
+}
+.lists .l-item .tt {
+      color: #323232;
+      font-size: 28rpx;
+      padding-top: 28rpx;
+}
+.lists .l-item .ttime {
+      color: #808080;
+      font-size: 26rpx;
+}
+.lists .l-item .tr {
+      float: right;
+      position: absolute;
+      height: 120rpx;
+      line-height: 120rpx;
+      right: 0rpx;
+      top: 0rpx;
+      color: #333333;
+      font-size: 28rpx;
+}
+.lists .l-item .tr image {
+        width: 28rpx;
+        height: 28rpx;
+}
+.jftop {
+  width: 100%;
+  background: url("http://wxapp.tegou100.com/static/images/user_bg.png");
+  height: 200rpx;
+  position: relative;
+}
+.jftop .zongjifen {
+    color: #ffffff;
+    font-size: 46rpx;
+    position: absolute;
+    top: 55rpx;
+    left: 40rpx;
+}
+.jftop .zongtis {
+    color: #ffffff;
+    font-size: 26rpx;
+    position: absolute;
+    left: 50rpx;
+    bottom: 55rpx;
+}
+.jftop .jf {
+    width: 160rpx;
+    height: 48rpx;
+    border-radius: 48rpx;
+    color: #ffffff;
+    font-size: 26rpx;
+    border: 1px solid #ffffff;
+    text-align: center;
+    line-height: 48rpx;
+    position: absolute;
+    right: 40rpx;
+    top: 76rpx;
+}
+.shixiao {
+  height: 158rpx;
+  padding: 40rpx 40rpx;
+  background: #ffffff;
+  position: relative;
+}
+.shixiao .sxtop {
+    color: #242424;
+    font-size: 30rpx;
+}
+.shixiao .sxbottom {
+    color: #242424;
+    font-size: 26rpx;
+}
+.shixiao .jt {
+    width: 35rpx;
+    height: 35rpx;
+    position: absolute;
+    right: 40rpx;
+    top: 59rpx;
+}
+.titles {
+  margin-top: 30rpx;
+  width: 100%;
+  padding: 0rpx 40rpx;
+  color: #323232;
+  font-size: 30rpx;
+  background: #ffffff;
+  border-bottom: 1px solid #f2f2f2;
+  height: 104rpx;
+  line-height: 104rpx;
+}
+.titles image {
+    width: 32rpx;
+    height: 32rpx;
+    margin-left: 20rpx;
+}
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/jifen/jifen.js.map*/

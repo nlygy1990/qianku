@@ -1,0 +1,1 @@
+<view class="container"><view class="contt"><rich-text nodes="{{nodes}}"></rich-text></view><view class="bbb"><view data-event-opts="{{[['tap',[['jujue',['$event']]]]]}}" class="jujue" bindtap="__e">拒绝</view><view data-event-opts="{{[['tap',[['tongyi',['$event']]]]]}}" class="tongyi" bindtap="__e">同意</view></view></view>

@@ -1,0 +1,1 @@
+<template name="e5d6d0b0"><view class="_view empty-content {{ h[ 0 ].rcl }}"><image class="_image empty-content-image" src="{{ h[ 1 ][ 'src' ] }}" mode="aspectFit"></image></view></template>

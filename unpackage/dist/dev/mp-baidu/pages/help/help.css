@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  width: 100%;
+  background: #f8f8f8;
+}
+.list {
+  width: 100%;
+  padding: 0 40rpx;
+  background: #ffffff;
+  border-top: 1px solid #f2f2f2;
+}
+.list .ull {
+    height: 100rpx;
+    line-height: 100rpx;
+    position: relative;
+    border-bottom: 1px solid #f2f2f2;
+}
+.list .ull text {
+      font-size: 28rpx;
+      color: #323232;
+}
+.list .ull image {
+      width: 30rpx;
+      height: 30rpx;
+      position: absolute;
+      right: 0rpx;
+      top: 35rpx;
+}
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/help/help.js.map*/

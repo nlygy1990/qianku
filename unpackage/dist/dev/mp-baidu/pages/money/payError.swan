@@ -1,0 +1,2 @@
+<import src="./payError.vue.swan" />
+    <template is="3c3f8cee" data="{{{ ...$root['0'], $root }}}"/>

@@ -1,0 +1,538 @@
+{
+	"pages": [
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "钱库CBE商城",
+				"navigationBarBackgroundColor":"#FFFFFF",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"titleText":"钱库CBE商城",
+						"buttons": [
+							{
+								"fontSrc": "/static/top.ttf",
+								"text": "\ue677",
+								"fontSize": "24",
+								"color": "#008ab0",
+								"background": "rgba(0,0,0,0)",
+								"float":"left"
+							},{
+								"fontSrc": "/static/top.ttf",
+								"text": "\ue868",
+								"fontSize": "20",
+								"color": "#008ab0",
+								"width": "46px",
+								"background": "rgba(0,0,0,0)"
+							},{
+								"fontSrc": "/static/top.ttf",
+								"text": "\ue675",
+								"fontSize": "20",
+								"color": "#008ab0",
+								"background": "rgba(0,0,0,0)"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/product/product",
+			"style": {
+				"navigationBarTitleText": "详情展示",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/index/webview",
+			"style": {
+				"navigationBarTitleText": "授权页"
+			}
+		},
+		{
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "我的账号"
+			}
+		}, {
+			"path": "pages/public/saoma",
+			"style": {
+				"navigationBarTitleText": "扫描结果"
+			}
+		},{
+			"path": "pages/set/publish",
+			"style": {
+				"navigationBarTitleText": "修改设置"
+			}
+		},{
+			"path": "pages/set/anquan",
+			"style": {
+				"navigationBarTitleText": "安全认证"
+			}
+		},{
+			"path": "pages/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle":"white",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},{
+			"path":"pages/public/dsflogin",
+			"style":{
+				"navigationBarTitleText":"账号密码登录"
+			}
+		},{
+			"path":"pages/public/onepage",
+			"style":{
+				"navigationBarTitleText":""
+			}
+		},{
+			"path":"pages/public/phonelogin",
+			"style":{
+				"navigationBarTitleText":"手机验证码登录"
+			}
+		},{
+			"path": "pages/public/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},{
+			"path":"pages/public/bindCn",
+			"style": {
+				"navigationBarTitleText": "绑定CN号"
+			}
+		},{
+			"path":"pages/public/forget",
+			"style":{
+				"navigationBarTitleText":"找回密码"
+			}
+		},{
+			"path":"pages/public/changepwd",
+			"style":{
+				"navigationBarTitleText":"重置密码"
+			}
+		},{
+			"path":"pages/public/zhecexieyi",
+			"style": {
+				"navigationBarTitleText": "隐私协议"
+			}
+		},{
+			"path":"pages/public/xieyi",
+			"style":{
+				"navigationBarTitleText":"用户协议"
+			}
+		},{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [
+							{
+								"fontSrc": "/static/top.ttf",
+								"text": "\ue677",
+								"fontSize": "24",
+								"color": "#303133",
+								"background": "rgba(0,0,0,0)",
+								"float":"left"
+							},{
+								"fontSrc": "/static/top.ttf",
+								"text": "\ue868",
+								"fontSize": "20",
+								"color": "#303133",
+								"width": "46px",
+								"background": "rgba(0,0,0,0)"
+							},{
+								"fontSrc": "/static/top.ttf",
+								"text": "\ue675",
+								"fontSize": "20",
+								"color": "#303133",
+								"background": "rgba(0,0,0,0)"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},{
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},{
+			"path": "pages/order/delivery",
+			"style": {
+				"navigationBarTitleText": "物流详情"
+			}
+		},{
+			"path": "pages/money/money",
+			"style": {}
+		}, {
+			"path": "pages/money/jspay",
+			"style": {}
+		},{
+			"path": "pages/order/createOrder",
+			"style": {
+				"navigationBarTitleText": "创建订单"
+			}
+		}, {
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		}, {
+			"path": "pages/address/addressManage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/money/pay",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "pages/money/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		},
+		{
+			"path": "pages/money/payError",
+			"style": {
+				"navigationBarTitleText": "支付失败"
+			}
+		}
+	    ,{
+            "path" : "pages/notice/notice",
+            "style" : {
+				"navigationBarTitleText": "消息中心"
+			}
+        }
+        ,{
+            "path" : "pages/category/category",
+            "style" : {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/product/list",
+            "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "商品列表"
+			}
+        }
+        ,{
+            "path" : "pages/erweima/erweima",
+            "style" : {
+				"navigationBarTitleText": "我的二维码",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/shenfen/shenfen",
+            "style" : {
+				"navigationBarTitleText": "我的身份",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/bank/bank",
+            "style" : {
+				"navigationBarTitleText": "我的银行卡",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        },{
+		    "path" : "pages/bank/bindbank",
+		    "style" : {
+				"navigationBarTitleText": "绑定银行卡",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+        ,{
+            "path" : "pages/shouru/shouru",
+            "style" : {
+				"navigationBarTitleText": "我的收入",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/goumairen/goumairen",
+            "style" : {
+				"navigationBarTitleText": "购买人",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        },{
+			"path":"pages/goumairen/add",
+			"style":{
+				"navigationBarTitleText": "添加购买人",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+        ,{
+            "path" : "pages/youhuiquan/youhuiquan",
+            "style" : {
+				"navigationBarTitleText": "我的优惠券",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/edu/edu",
+            "style" : {
+				"navigationBarTitleText": "年度购买额度",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/shoucang/shoucang",
+            "style" : {
+				"navigationBarTitleText": "我的收藏",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        },{
+			"path" : "pages/money/payapi",
+			"style" : {
+				"navigationBarTitleText": "支付接口",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+        ,{
+            "path" : "pages/help/help",
+            "style" : {
+				"navigationBarTitleText": "帮助中心",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        },{
+			"path" : "pages/news/index",
+			"style" : {
+				"navigationBarTitleText": "新闻中心",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},{
+			"path" : "pages/brand/brand",
+			"style" : {
+				"navigationBarTitleText": "品牌故事",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},{
+			"path" : "pages/news/detail",
+			"style" : {
+				"navigationBarTitleText": "新闻详情",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},{
+			"path" : "pages/news/details",
+			"style" : {
+				"navigationBarTitleText": "新闻详情",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+        ,{
+            "path" : "pages/fenxiang/fenxiang",
+            "style" : {
+				"navigationBarTitleText": "我的分享",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/jifen/jifen",
+            "style" : {
+				"navigationBarTitleText": "我的积分",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        },{
+            "path" : "pages/jifen/jifenshangcheng",
+            "style" : {
+				"navigationBarTitleText": "积分商城",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        },{
+            "path" : "pages/jifen/shixiao",
+            "style" : {
+				"navigationBarTitleText": "失效积分详情",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/shouhou/shouhou",
+            "style" : {
+				"navigationBarTitleText": "售后查询",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        },{
+            "path" : "pages/shouhou/shenqing",
+            "style" : {
+				"navigationBarTitleText": "售后申请",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        },{
+            "path" : "pages/shouhou/detail",
+            "style" : {
+				"navigationBarTitleText": "服务单详情",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        },{
+            "path" : "pages/shouhou/jihui",
+            "style" : {
+				"navigationBarTitleText": "发起退货",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        },{
+            "path" : "pages/shouhou/wuliu",
+            "style" : {
+				"navigationBarTitleText": "进度详情",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/bind/bind",
+            "style" : {
+				"navigationBarTitleText": "账号绑定",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+		,{
+		    "path" : "pages/index/search",
+		    "style" : {
+				"navigationBarTitleText": "搜索结果",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "CBE钱库",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#0490b7",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"iconPath": "static/tab-cate.png",
+				"selectedIconPath": "static/tab-cate-current.png",
+				"text": "产品目录"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/tab-cart.png",
+				"selectedIconPath": "static/tab-cart-current.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tab-my.png",
+				"selectedIconPath": "static/tab-my-current.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}

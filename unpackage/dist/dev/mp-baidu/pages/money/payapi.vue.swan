@@ -1,0 +1,1 @@
+<template name="88cba2c0"><view class="_view {{ h[ 0 ].rcl }}"><web-view class="_web-view" src="{{ h[ 1 ][ 'src' ] }}" webview-styles="{{ h[ 1 ][ 'webview-styles' ] }}" data-cid="{{ _c || c }}" data-hid="{{ 1 }}" bindmessage="_pe"></web-view></view></template>
